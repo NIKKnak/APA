@@ -30,3 +30,5 @@ C:\Users\nik88\OneDrive\Desktop\C#\APA\bin\Debug\net6.0-windows\System.Security.
 C:\Users\nik88\OneDrive\Desktop\C#\APA\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\nik88\OneDrive\Desktop\C#\APA\obj\Debug\net6.0-windows\APA.csproj.AssemblyReference.cache
 C:\Users\nik88\OneDrive\Desktop\C#\APA\obj\Debug\net6.0-windows\APA.csproj.CopyComplete
+C:\Users\nik88\OneDrive\Desktop\C#\APA\bin\Debug\net6.0-windows\System.Text.Encoding.CodePages.dll
+C:\Users\nik88\OneDrive\Desktop\C#\APA\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
