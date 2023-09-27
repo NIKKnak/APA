@@ -27,26 +27,26 @@ namespace APA
                     // Получение пути к выбранному файлу
                     string filePath = openFileDialog.FileName;
 
-                    // Считывание данных из выбранного файла
+                    // Считывание данных из файла
                     using (StreamReader reader = new StreamReader(filePath, Encoding.GetEncoding(866)))
                     {
                         string line;
                         int row = 1;
                         while ((line = reader.ReadLine()) != null)
                         {
-                            // Отрезаем первые 10 символов
+                            // Отрезаем символы
                             string chars1 = line.Substring(10, 8);
 
-                            
+
                             string chars2 = line.Substring(20, 8);
 
-                           
-                            string remainingChars = line.Substring(29);
+
+                            string chars3 = line.Substring(29);
 
                             // Записываем данные в ячейки
                             worksheet.Cells[row, 1].Value = chars1;
                             worksheet.Cells[row, 2].Value = chars2;
-                            worksheet.Cells[row, 3].Value = remainingChars;
+                            worksheet.Cells[row, 3].Value = chars3;
 
                             row++;
                         }
